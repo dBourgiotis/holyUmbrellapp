@@ -1,0 +1,43 @@
+@font-face {
+    font-family: biko;
+    src: url(../biko/Biko_Regular.otf);
+}
+
+@font-face {
+    font-family: bikoBold;
+    src: url(../biko/Biko_Bold.otf);
+}
+
+@font-face {
+    font-family: bikoLight;
+    src: url(../biko/Biko_Light-Restricted.otf);
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: rgb(252, 87, 93);
+    font-family: biko;
+    color: rgb(255, 255, 255)
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.loader {
+    margin: auto;
+    width: 130px;
+    height: 200px;
+}
+
+.loader img {
+    width: 89px;
+    height: 89px;
+}

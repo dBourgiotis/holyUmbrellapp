@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>Umbrellapp</title>
+        <link rel="stylesheet" href="../css/forecast.css">
+        <link rel="stylesheet" href="../css/menu.css">
+        <link rel="icon" type="image/png" href="../icons/tab-icon.png">
+
+        <script
+            src="https://code.jquery.com/jquery-3.1.1.js"
+            integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+            crossorigin="anonymous">
+         </script>
+    </head>
+    <body>
+        <section class="container">
+
+            <header>
+                <button class="cancel menu-but"></button>
+                <div class="moto">
+                    <p>Your</p>
+                    <p>best</p>
+                    <p>weather</p>
+                    <p>app</p>
+                </div>                
+                
+                <div class="decor">
+                    <img src="../icons/minus.svg" alt="">
+                </div>
+                
+                <menu>
+                    <menuitem> <a href="">team</a> </menuitem>
+                    <menuitem> <a href="">history</a> </menuitem>
+                    <menuitem> <a href="">contact</a> </menuitem>
+                </menu>
+                <div class="bottom">
+                    <p>suggest to a friend</p>
+                    <footer>
+                        <a href="http://www.facebook.com/share.php?u=[URL]&title=[TITLE]" target="_blank" id="fb" class="s-icons"></a>
+                        <a href="http://twitter.com/intent/tweet?status=[TITLE]+[URL]" target="_blank" id="twitter" class="s-icons"></a>
+                        <a href="https://plus.google.com/share?url=[URL]" target="_blank" id="google" class="s-icons"></a>
+                    </footer>
+                </div>
+                
+                
+
+            </header>    
+
+            <div class="top">
+                <button class="menu menu-but"></button>
+                <img src="../icons/umbrelladark.svg" alt="umbrella">
+                <a href="" class="addFavorites">
+                    <p>Add to Favorites</p> 
+                    <img src="../icons/like.svg" alt="like">
+                </a>
+            </div>
+            <div class="weather">                          
+                <div class="today">
+                    <h3>TODAY</h3>
+                    <h3 class="location" id="location1">Athens, GR</h3>
+                    <img src="../icons/meteo/cloud.svg" alt="forecast">
+                    <h2 class="max-temp">14 &deg;C</h2>
+                    <h2 class="min-temp">11 &deg;C</h2>
+                </div>
+
+                <div class="next-days">
+                    <div class="day 2">
+                        <h4>TUE</h4>
+                        <img src="../icons/meteo/rain.svg" alt="day1">
+                        <h5 class="max-temp">15 &deg;C</h5>
+                        <h5 class="min-temp">14 &deg;C</h5>
+                    </div>
+
+                    <div class="day 3">
+                        <h4>WED</h4>
+                        <img src="../icons/meteo/cloudsun.svg" alt="day2">
+                        <h5 class="max-temp">15 &deg;C</h5>
+                        <h5 class="min-temp">12 &deg;C</h5>
+                    </div>
+
+                    <div class="day 4">
+                        <h4>THU</h4>
+                        <img src="../icons/meteo/sun.svg" alt="day3">
+                        <h5 class="max-temp">15 &deg;C</h5>
+                        <h5 class="min-temp">11 &deg;C</h5>
+                    </div>
+
+                    <div class="day 5">
+                        <h4>FRI</h4>
+                        <img src="../icons/meteo/sun.svg" alt="day4">
+                        <h5 class="max-temp">15 &deg;C</h5>
+                        <h5 class="min-temp">10 &deg;C</h5>
+                    </div>
+
+                    <div class="day 6">
+                        <h4>SAT</h4>
+                        <img src="../icons/meteo/cloudsun.svg" alt="day5">
+                        <h5 class="max-temp">15 &deg;C</h5>
+                        <h5 class="min-temp">12 &deg;C</h5>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <script src="../js/forecast.js"></script>
+    </body>
+</html>

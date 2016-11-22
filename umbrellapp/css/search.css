@@ -1,0 +1,121 @@
+@font-face {
+    font-family: biko;
+    src: url(../biko/Biko_Regular.otf);
+}
+
+@font-face {
+    font-family: bikoBold;
+    src: url(../biko/Biko_Bold.otf);
+}
+
+@font-face {
+    font-family: bikoLight;
+    src: url(../biko/Biko_Light-Restricted.otf);
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: rgb(252, 87, 93);
+    font-family: biko, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.search {
+    margin: auto;
+    width: 350px;
+    height: 350px;
+}
+
+.search p{
+    font-size: 25;
+    font-weight: lighter;
+}
+
+.top{
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    padding-top:27px; 
+}
+.top img {
+    width: 40px;
+    height: 40px;
+    padding-right: 65px;
+}
+
+.menu {
+    display: inline-block;
+    float: left;
+    margin-left: 25px;
+    background-image: url('../icons/menu.svg');
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: 40px;
+    border: none;
+    background-color: inherit;
+}
+
+#search{
+    height: 50px;
+    width: 250px;
+    border: none;
+    background-color: rgb(151,81,255);
+    font-size: 25;
+    font-family: inherit;
+    color: rgb(201,166,255);
+    margin-top: 5px;
+}
+
+.access {
+    height: 60px;
+    width: 240px;
+    border: none;
+    background-color: rgb(100,255,127);
+    font-size: 25;
+    font-family: inherit;
+    color: rgb(151,81,255);
+}
+
+.access img{
+    height: 23px;
+    display: inline-block;
+    padding-left: 10px;
+    float: left;
+}
+
+.typeLocation{
+    background-color: rgb(151,81,255);
+    height: 60px;
+}
+
+.typeLocation button{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    background-image: url('../icons/search.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-size: 25px;
+}
+
+input:focus{
+    outline: none;
+}

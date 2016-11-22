@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Umbrellapp</title>
+        <link rel="stylesheet" href="../css/loader.css">
+        <link rel="stylesheet" href="../css/customLoader.css">
+        <link rel="icon" type="image/png" href="../icons/tab-icon.png">
+        <script
+            src="https://code.jquery.com/jquery-3.1.1.js"
+            integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+            crossorigin="anonymous">
+         </script>
+    </head>
+    <body>
+        <section class="container">
+            <div class="loader">
+                <img src="../icons/umbrella.svg" alt="umbrella">
+                <h3>umbrellapp</h3>
+                <div class="bubblingG">
+                    <span id="bubblingG_1">
+                    </span>
+                    <span id="bubblingG_2">
+                    </span>
+                    <span id="bubblingG_3">
+                    </span>
+                </div>
+            </div>
+        </section>
+        <script>
+            var res = location.search.split('res=')[1];
+            setTimeout(func, 2000);
+            function func() {
+                if(res)
+                    window.location = "./forecast.html?res=" + res;
+                else
+                    window.location = "./search.html";
+            }
+        </script>
+    </body>
+</html>

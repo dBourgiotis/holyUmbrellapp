@@ -1,0 +1,101 @@
+header{
+    position: fixed;
+    margin: 0 auto;
+    display: block;
+    background-color: rgb(100,255,126);
+    color: rgb(151,81,255);
+    height: 100%;
+    width: 320px;
+    z-index: 1000;
+    display: none;
+}
+
+.moto {
+    text-align: left;
+    padding-top: 100px;
+}
+
+.moto p{
+    color: white;
+    font-size: 40px;
+    padding-left: 40px;
+    height: 7px;
+}
+
+.cancel {
+    background-image: url('../icons/cancel.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+    display: block;
+    padding-top: 60px;
+    padding-left: 40px;
+    width: 70px;
+    border: none;
+    background-color: inherit;
+}
+
+button:focus{
+    outline: none;
+}
+
+.decor {
+    text-align: left;
+    padding-top: 100px;
+}
+
+.decor img {
+    width: 30px;
+    padding-left: 40px;
+}
+
+header menu {
+    text-align: left;
+}
+
+menuitem {
+    font-size: 40px;
+    display: block;
+    padding-top: 5px;
+}
+
+menuitem a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header p {
+    text-align: left;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    padding-left: 30px;
+}
+
+footer a{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25px;
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+}
+
+#fb {
+    background-image: url('../icons/social/fb.svg');
+}
+
+#twitter {
+    background-image: url('../icons/social/tw.svg');
+}
+
+#google {
+    background-image: url('../icons/social/g.svg');
+}
+
+.bottom {
+    padding-top: 80px;
+}
