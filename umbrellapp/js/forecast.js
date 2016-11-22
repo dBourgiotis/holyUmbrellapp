@@ -20,6 +20,9 @@ function forecast(value){
         break;
     case "Clouds":
         res = "../icons/meteo/cloud.svg";
+        break;
+    default:
+        res = "../icons/meteo/cloudsun.svg"; //dummy case only 4 basic senarios implemented
         break;        
     }
     return res;
